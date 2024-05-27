@@ -8,7 +8,7 @@ import numpy as np
 from src.DimondPricePrediction.utils.utils import load_object
 from src.DimondPricePrediction.exception import CustomException
 from src.DimondPricePrediction.logger import logging
-
+from urllib.parse import urlparse
 
 class ModelEvaluation:
     def __init__(self) -> None:
@@ -26,6 +26,9 @@ class ModelEvaluation:
             modelpath = os.path.join("artifacts","model.pkl")
             model = load_object(modelpath)
 
+            mlflow.set_registry_uri("https://dagshub.com/bkalp30/endtoendregression.mlflow")
+            tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
+    
             with mlflow.start_run():
                 predicted =  model.predict(x_test)
                 (rmse, mae, r2) = self.evl_metrics(y_test, predicted)
