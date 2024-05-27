@@ -7,6 +7,7 @@ import pandas as pd
 
 from src.DimondPricePrediction.components.data_transformation import DataTransformation
 from src.DimondPricePrediction.components.model_trainer import ModelTrainer
+from src.DimondPricePrediction.components.model_evaluation import ModelEvaluation
 
 
 data_ingestion = DataIngestion()
@@ -17,3 +18,6 @@ train_arr, test_arr = data_transformation.initiate_data_transformation(train_pat
 
 model_trainer = ModelTrainer()
 model_trainer.initiate_model_trainer(train_array=train_arr, test_array=test_arr)
+
+model_evaluation = ModelEvaluation()
+model_evaluation.initiate_model_evaluation(train_array=train_arr, test_array=test_arr)

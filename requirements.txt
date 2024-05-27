@@ -5,5 +5,7 @@ ipykernel
 seaborn
 matplotlib
 Flask
+dvc
+mlflow==2.2.2
 
 -e .

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/AllData/Data%20Science/ML/Regression%20end%20to%20end%20implementation/endtoendregression/mlruns/0/7f540a8802b94997a5757912acebfb3c/artifacts
+end_time: 1716811249326
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7f540a8802b94997a5757912acebfb3c
+run_name: redolent-mare-807
+run_uuid: 7f540a8802b94997a5757912acebfb3c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716811249174
+status: 3
+tags: []
+user_id: KalpeshB
