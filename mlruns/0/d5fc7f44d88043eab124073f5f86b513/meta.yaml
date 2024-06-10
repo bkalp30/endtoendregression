@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/AllData/Data%20Science/ML/Regression%20end%20to%20end%20implementation/endtoendregression/mlruns/0/d5fc7f44d88043eab124073f5f86b513/artifacts
+end_time: 1718038427649
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d5fc7f44d88043eab124073f5f86b513
+run_name: gentle-crow-527
+run_uuid: d5fc7f44d88043eab124073f5f86b513
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1718038427581
+status: 3
+tags: []
+user_id: KalpeshB

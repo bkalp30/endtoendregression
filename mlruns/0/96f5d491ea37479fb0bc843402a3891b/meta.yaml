@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/AllData/Data%20Science/ML/Regression%20end%20to%20end%20implementation/endtoendregression/mlruns/0/96f5d491ea37479fb0bc843402a3891b/artifacts
+end_time: 1718038553077
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 96f5d491ea37479fb0bc843402a3891b
+run_name: sassy-ram-648
+run_uuid: 96f5d491ea37479fb0bc843402a3891b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1718038553000
+status: 3
+tags: []
+user_id: KalpeshB
